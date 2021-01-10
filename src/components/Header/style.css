@@ -1,0 +1,45 @@
+:root {
+    --nav-color: grey
+}
+
+nav {
+    background-color: var(--nav-color);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.1s ease-in;
+    padding-top: 40px;
+}
+nav a {
+    border-top: 1px solid darkgray;
+    text-decoration: none;
+    padding: 3%;
+
+}
+header .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+.hamburger:focus {
+    outline: none;
+}
+.hamburger:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+header .simone {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 20%;
+    z-index: -1;
+}
